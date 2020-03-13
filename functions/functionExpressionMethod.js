@@ -17,3 +17,7 @@ console.log(mult);
 
 //object method
 var objectMethod = {qdt: 2, price: 5, sum(){return this.price * this.price}};
+
+console.log(objectMethod);
+console.log(objectMethod.sum());
+
