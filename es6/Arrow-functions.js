@@ -1,29 +1,38 @@
-function sum(a, b) {
-    return a+ b;
-}
+// function sum(a, b) {
+//     return a+ b;
+// }
 
-console.log('result: ', sum(5,9));
+// console.log('result: ', sum(5,9));
 
-//functio express
-let sumExpress = function(a, b){
-    return a+b;
-}
-console.log(sumExpress);
-console.log('result of sumExpress:', sumExpress(3,3));
-
-
-let  sumArrow1 = (a, b) => {
-    return a+b;
-}
-
-console.log('result arrow1;', sumArrow1(6,6));
+// //functio express
+// let sumExpress = function(a, b){
+//     return a+b;
+// }
+// console.log(sumExpress);
+// console.log('result of sumExpress:', sumExpress(3,3));
 
 
-let  sumArrow2 = (a, b) => a + b;
+// let  sumArrow1 = (a, b) => {
+//     return a+b;
+// }
 
-console.log('result arrow2;', sumArrow2(20,20));
+// console.log('result arrow1;', sumArrow1(6,6));
 
-let Arrow3 = name => name.toUpperCase();
 
-console.log(Arrow3('Peter'));
+// let  sumArrow2 = (a, b) => a + b;
+
+// console.log('result arrow2;', sumArrow2(20,20));
+
+// let Arrow3 = name => name.toUpperCase();
+
+// console.log(Arrow3('Peter'));
+
+
+
+console.log(((10*60e3)/1000));
+console.log(((6*90e3)/1000));
+console.log(((120e3)/1000));
+
+
+
 
