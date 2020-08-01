@@ -84,3 +84,16 @@
 // console.log("exponentiation/potentiation");
 // var exp = 2 ** 3;
 // console.log("2 ** 3 = ", exp);
+
+console.log('minutos',(30*60e3 / 1000) / 60);
+console.log('segundos',(30*60e3 / 1000));
+
+console.log(2*6e4 / 1000);
+
+
+var bol = "34191.09156 78701.832939 83035.710009 8 83150000136999";
+bol = bol.split('.').join('').split(' ').join('');
+console.log(bol);
+
+
+
