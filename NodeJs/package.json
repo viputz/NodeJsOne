@@ -8,10 +8,11 @@
   },
   "lint-staged": {
     "*.js": [
-      "standard"
+      "standard --fix",
+      "git add"
     ]
   },
-  "husky":{
+  "husky": {
     "pre-commit": "lint-staged"
   },
   "author": "",
